@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+.entepa{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.entepa a {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: #ff8c00;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid #ff8c00;
+    padding-bottom: 5px;
+}
+.signinlar {
+    display: flex;
+    gap: 15px;
+}
+.btn-signin {
+    text-decoration: none;
+    color: #ff8c00;
+    padding: 10px 25px;
+    background-color: #fff9f0;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-login {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: #ff8c00;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #e67e00;
+}
+.rasmpas{
+    background-color:  #FF8A00;
+    width: 177px;
+    height: 44px;
+    margin-left: 850px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search input {
+  width: 735px;
+  height: 45px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.search button {
+  padding: 15px 15px;
+  background: orange;
+  width: 98px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 200px;
+    height: 260px;
+    padding-left: 1000px;
+    margin-bottom: 20px;
+}
+.product{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    gap: 100px;
+    padding-left: 100px;
+    margin-bottom: 40px;
+}
+p{
+    font-size: 20px;
+    color: #000;
+}
+input[type="number"] {
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+   padding: 5px;
+}
+.izoh{
+    gap: 100px;
+    margin-left: 100px;
+    display: flex;
+}
+.izoh2{
+    gap: 100px;
+    margin-left: 100px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.acssesuar{
+   width: 150px;
+   height: 150px;
+}

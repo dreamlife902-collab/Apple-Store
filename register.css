@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    background: url(registerfoto.png) no-repeat center/cover;
+    height: 100vh;
+}
+.box{
+    width: 500px;
+    margin: auto;
+    margin-top: 200px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.inp{
+    width: 380px;
+    margin: auto;
+    height: 50px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+.center_inp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+i{
+    position: relative;
+    right: 35px;
+}
+.inp::placeholder{
+    color: #fff;
+    font-size: 20px;
+}
+.check{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+p{
+    color: #fff;
+    text-align: center;
+}
+button{
+    border: none;
+    width: 350px;
+    border-radius: 25px;
+    height: 50px;
+    margin-left: 80px;
+    font-size: 23px;
+    margin-bottom: 30px;
+    background: white;
+}
+span{
+    font-weight: bold;
+}

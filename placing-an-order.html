@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placing an Order</title>
+    <link rel="stylesheet" href="placing-an-order.css">
+</head>
+<body>
+
+    <div class="order-container">
+        <div class="order-form-section">
+            <h2>🚚 Delivery information</h2>
+            <form action="#" method="POST" class="checkout-form">
+                
+                <div class="input-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Full Name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="+998 (00) 000-0000" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="address">City, Street and House Number</label>
+                    <input type="text" id="address" placeholder="Toshkent sh., Sayram 14-kvartal, 71-dom" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="payment">Payment Method</label>
+                    <select id="payment" required>
+                        <option value="click">Click / Payme</option>
+                        <option value="cash">Eshik oldida naqd (Cash on Delivery)</option>
+                        <option value="applepay">Apple Pay 🍏</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="place-order-btn"><a href="index.html">Confirm Order</a></button>
+            </form>
+        </div>
+
+        <div class="order-summary-section">
+            <h2>🛒 Order Summary</h2>
+
+            <div class="cart-items">
+                <div class="item">
+                    <div class="item-info">
+                        <h4>Airpods</h4>
+                        <p>Miqdori: 1 ta</p>
+                    </div>
+                    <span class="item-price">250$</span>
+                </div>
+
+                <div class="item">
+                    <div class="item-info">
+                        <h4>iPad 128GB</h4>
+                        <p>Miqdori: 1 ta</p>
+                    </div>
+                    <span class="item-price">449$</span>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="price-details">
+                <div class="price-row">
+                    <span>Oraliq jami:</span>
+                    <span>699$</span>
+                </div>
+                <div class="price-row">
+                    <span>Yetkazib berish:</span>
+                    <span class="free-delivery">Bepul</span>
+                </div>
+                <hr>
+                <div class="price-row total-row">
+                    <span>Umumiy jami:</span>
+                    <span>699$</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
